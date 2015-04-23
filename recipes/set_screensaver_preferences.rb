@@ -7,7 +7,7 @@ end
 osxdefaults_defaults "wait 60 seconds between screensaver & lock" do
   domain 'com.apple.screensaver'
   key 'askForPasswordDelay'
-  float 60
+  float 0
 end
 
 plist_dir = ENV['HOME'] + "/Library/Preferences/ByHost"
